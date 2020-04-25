@@ -4,10 +4,15 @@ while True:
 	if _name == 'q':
 		break
 	_price = input('請輸入價格: ')
+# 寫法1 , 理解用
 	# _2nd_dimension = []
 	# _2nd_dimension.append(_name) 
 	# _2nd_dimension.append(_price)
 	# _1st_dimension.append(_2nd_dimension)
+# 寫法2
+	# _2nd_dimension = [_name, _price]
+	# _1st_dimension.append(_2nd_dimension)
+# 寫法3
 # 7-10 行簡寫
 	_1st_dimension.append([_name, _price])
 
